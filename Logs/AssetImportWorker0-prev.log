@@ -1,0 +1,358 @@
+Unity Editor version:    2022.3.13f1 (5f90a5ebde0f)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.5 (Build 23F79)
+Darwin version:          23.5.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        65536 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/leoredeker/workspace/unity/Test3D
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57314
+Successfully changed project path to: /Users/leoredeker/workspace/unity/Test3D
+/Users/leoredeker/workspace/unity/Test3D
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [140704625946560] Host "[IP] 192.168.178.43 [Port] 0 [Flags] 2 [Guid] 3900068461 [EditorId] 3900068461 [Version] 1048832 [Id] OSXEditor(0,Proxima-Centauri.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [140704625946560] Host "[IP] 192.168.178.43 [Port] 0 [Flags] 2 [Guid] 3900068461 [EditorId] 3900068461 [Version] 1048832 [Id] OSXEditor(0,Proxima-Centauri.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 5.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.13f1 (5f90a5ebde0f)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/leoredeker/workspace/unity/Test3D/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: AMD Radeon Pro 5500M (high power)
+Metal devices available: 2
+0: AMD Radeon Pro 5500M (high power)
+1: Intel(R) UHD Graphics 630 (low power)
+Using device AMD Radeon Pro 5500M (high power)
+Initializing Metal device caps: AMD Radeon Pro 5500M
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56105
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.13f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002714 seconds.
+- Loaded All Assemblies, in  0.600 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.460 seconds
+Domain Reload Profiling: 1060ms
+	BeginReloadAssembly (152ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (67ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (88ms)
+	LoadAllAssembliesAndSetupDomain (270ms)
+		LoadAssemblies (152ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (267ms)
+			TypeCache.Refresh (264ms)
+				TypeCache.ScanAssembly (242ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (460ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (349ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (240ms)
+			ProcessInitializeOnLoadMethodAttributes (82ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+TypeRef ResolutionScope not yet handled (218) for .IMergeView in image /Users/leoredeker/workspace/unity/Test3D/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+Unloading broken assembly Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll, this assembly can cause crashes in the runtime
+- Loaded All Assemblies, in  0.957 seconds
+Refreshing native plugins compatible for Editor in 1.94 ms, found 2 plugins.
+Could not load signature of Unity.PlasticSCM.Editor.Gluon.UpdateReport.UpdateReportDialog:ShowUpdateReport due to: Could not resolve type with token 0100006b from typeref (expected class 'Codice.Client.BaseCommands.ErrorMessage' in assembly 'unityplastic, Version=11.0.16.8204, Culture=neutral, PublicKeyToken=a107c9c6e34c8876') assembly:unityplastic, Version=11.0.16.8204, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:Codice.Client.BaseCommands.ErrorMessage member:(null)
+Could not load signature of Unity.PlasticSCM.Editor.Gluon.UpdateReport.UpdateReportDialog:UpdateUpdateReportList due to: Could not resolve type with token 0100006b from typeref (expected class 'Codice.Client.BaseCommands.ErrorMessage' in assembly 'unityplastic, Version=11.0.16.8204, Culture=neutral, PublicKeyToken=a107c9c6e34c8876') assembly:unityplastic, Version=11.0.16.8204, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:Codice.Client.BaseCommands.ErrorMessage member:(null)
+Could not load signature of Unity.PlasticSCM.Editor.Gluon.UpdateReport.UpdateReportDialog:GetErrorDetailsText due to: Could not resolve type with token 0100006b from typeref (expected class 'Codice.Client.BaseCommands.ErrorMessage' in assembly 'unityplastic, Version=11.0.16.8204, Culture=neutral, PublicKeyToken=a107c9c6e34c8876') assembly:unityplastic, Version=11.0.16.8204, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:Codice.Client.BaseCommands.ErrorMessage member:(null)
+Could not load signature of Unity.PlasticSCM.Editor.Gluon.UpdateReport.UpdateReportDialog:DoErrorDetailsTextArea due to: Could not resolve type with token 0100006b from typeref (expected class 'Codice.Client.BaseCommands.ErrorMessage' in assembly 'unityplastic, Version=11.0.16.8204, Culture=neutral, PublicKeyToken=a107c9c6e34c8876') assembly:unityplastic, Version=11.0.16.8204, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:Codice.Client.BaseCommands.ErrorMessage member:(null)
+Could not load signature of Unity.PlasticSCM.Editor.Gluon.UpdateReport.UpdateReportDialog:Create due to: Could not resolve type with token 0100006b from typeref (expected class 'Codice.Client.BaseCommands.ErrorMessage' in assembly 'unityplastic, Version=11.0.16.8204, Culture=neutral, PublicKeyToken=a107c9c6e34c8876') assembly:unityplastic, Version=11.0.16.8204, Culture=neutral, PublicKeyToken=a107c9c6e34c8876 type:Codice.Client.BaseCommands.ErrorMessage member:(null)
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.944 seconds
+Domain Reload Profiling: 1901ms
+	BeginReloadAssembly (215ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (64ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (590ms)
+		LoadAssemblies (378ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (315ms)
+			TypeCache.Refresh (279ms)
+				TypeCache.ScanAssembly (257ms)
+			ScanForSourceGeneratedMonoScriptInfo (25ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (945ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (677ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (552ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.10 seconds
+Refreshing native plugins compatible for Editor in 1.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3133 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (47.9 KB). Loaded Objects now: 3594.
+Memory consumption went from 126.9 MB to 126.9 MB.
+Total: 4.526903 ms (FindLiveObjects: 0.297698 ms CreateObjectMapping: 0.258010 ms MarkObjects: 3.845319 ms  DeleteObjects: 0.124588 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/precompiled-assembly-types:Unity.PlasticSCM.Editor: fa07261737969afd534745fdbb5a9ba0 -> 
+  custom:scripting/monoscript/fileName/SSOCredentialsDialog.cs: e140ede12a96f68f30062138385171c3 -> 90647cc400823b41df847a6cbfc29026
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/CloudEditionWelcomeWindow.cs: b1721e471183956468462f6b64901640 -> c1777a498406cd95bc755aaf92ab946f
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:unityplastic: 80ce6fce021ee75cb20edaadb7bf11e0 -> 26b58a4695bcfc4bd2b1d359ee452308
+========================================================================
+Received Import Request.
+  Time since last request: 7546.334302 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4fe85251aa2e89732c359432baa2c3') in 0.001777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 12.457130 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(7a34ddbe9593648989ed0e3716714a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(7a34ddbe9593648989ed0e3716714a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c12feee00ab32a290b3d68affb62ac7') in 0.000523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.065080 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a85bec50c8be757587fedfaade313866') in 0.000322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 223.140696 seconds.
+  path: Assets/ambulance.fbx
+  artifactKey: Guid(cdf8cf675a9eb42ef816372d2c92322a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ambulance.fbx using Guid(cdf8cf675a9eb42ef816372d2c92322a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc664fb75460622814a87c31d7b0f88b') in 0.654539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 47
+========================================================================
+Received Import Request.
+  Time since last request: 167.231522 seconds.
+  path: Assets/wheelTruck.fbx
+  artifactKey: Guid(2423d0abfce94441b9df7a6de9ef2866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wheelTruck.fbx using Guid(2423d0abfce94441b9df7a6de9ef2866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a53803947e3f2874e3adb8ff3834a82e') in 0.028466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.011892 seconds.
+  path: Assets/delivery.fbx
+  artifactKey: Guid(801b443e3cc4b421d8a1bae2bb7dc4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/delivery.fbx using Guid(801b443e3cc4b421d8a1bae2bb7dc4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '147900098c05fd8d9f50e6eeabdf47ba') in 0.126382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/race.fbx
+  artifactKey: Guid(6b40b836f38b347828685abc3acaded8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/race.fbx using Guid(6b40b836f38b347828685abc3acaded8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28979ca384a5f4c173986b751fc809ba') in 0.089205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000477 seconds.
+  path: Assets/wheelTractorFront.fbx
+  artifactKey: Guid(83b707d4211714cf58fd2412fd8dc3ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wheelTractorFront.fbx using Guid(83b707d4211714cf58fd2412fd8dc3ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61a5c64a7ca4d0349d9d2f5f88d4a8b5') in 0.032250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/suv.fbx
+  artifactKey: Guid(a8179669bf4ac4093aab0e02e4e189ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/suv.fbx using Guid(a8179669bf4ac4093aab0e02e4e189ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06baaed98c9098ad6e1f0ae502af8e47') in 0.120917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/truck.fbx
+  artifactKey: Guid(aae2adb419330428e90806b57912e393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/truck.fbx using Guid(aae2adb419330428e90806b57912e393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d21d35074f2a803bc931af0e5cb615e') in 0.114768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/police.fbx
+  artifactKey: Guid(817cd085d81bf42b6a5c79e6d8afcfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/police.fbx using Guid(817cd085d81bf42b6a5c79e6d8afcfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06bd35a6809c9815c2ff09fad2925c10') in 0.121017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/wheelDark.fbx
+  artifactKey: Guid(83e7047b759704e9181f370ccfd722b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wheelDark.fbx using Guid(83e7047b759704e9181f370ccfd722b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd76431ce31c914e8e9485da558418d7d') in 0.023026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/taxi.fbx
+  artifactKey: Guid(80270d3d156d8478f844c1886579895a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/taxi.fbx using Guid(80270d3d156d8478f844c1886579895a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f73c553a1fd5180d7b30026853440e80') in 0.125138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/wheelTractorBack.fbx
+  artifactKey: Guid(4ae5b80faf6a8461198ad3a0a9722546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wheelTractorBack.fbx using Guid(4ae5b80faf6a8461198ad3a0a9722546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9baaf9230c4681cb320bd7c5c21b68d0') in 0.030502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/suvLuxury.fbx
+  artifactKey: Guid(29dc726b30dfe4365b6fb919e0c03593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/suvLuxury.fbx using Guid(29dc726b30dfe4365b6fb919e0c03593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '826279c8b85afc872bb200bc9d67fd5a') in 0.106533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/sedan.fbx
+  artifactKey: Guid(f640626abd87c4026bc2159a99269aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sedan.fbx using Guid(f640626abd87c4026bc2159a99269aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5595f8a1c227e8bf9fe4bf297d8a3413') in 0.120650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/wheelDefault.fbx
+  artifactKey: Guid(12968d2a1d40d46658d363e31d3450fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wheelDefault.fbx using Guid(12968d2a1d40d46658d363e31d3450fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92d725c258608f5b77f198c611727d3f') in 0.024747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/garbageTruck.fbx
+  artifactKey: Guid(c86d4ac07f92840388fb5486ff7a5e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/garbageTruck.fbx using Guid(c86d4ac07f92840388fb5486ff7a5e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e04e3cd24190eb22160ececf3fb3767f') in 0.136545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/wheelTractorDarkFront.fbx
+  artifactKey: Guid(5e97c0c109a0748debb668d7d99f76ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wheelTractorDarkFront.fbx using Guid(5e97c0c109a0748debb668d7d99f76ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eae7d89176e1e0cfada69e64a2ce9d1') in 0.025932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 89, details: Operation aborted.
+AssetImportWorker is now disconnected from the server
+Process exiting
