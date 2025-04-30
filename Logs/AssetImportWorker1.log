@@ -253,3 +253,7 @@ Received Import Request.
 Start importing Assets/assets/large_buildingA.fbx using Guid(a83fffeeecd054d35b90376298a46476) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a27ca430f8595be35adeaf0351e3aa1b') in 0.03267475 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting

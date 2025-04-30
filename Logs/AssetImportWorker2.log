@@ -221,3 +221,6 @@ Received Import Request.
 Start importing Assets/assets/large_buildingB.fbx using Guid(187191b6c19994c88bfe8e01db476e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75eacddf3e3a7de6822cc209eace9151') in 0.035504375 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
