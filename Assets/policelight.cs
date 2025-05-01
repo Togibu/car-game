@@ -12,19 +12,69 @@ public class policelight : MonoBehaviour
     private Light redLight; // Light-Komponente des roten Lichts
     private bool isBlueLightOn = true; // Gibt an, welches Licht gerade an ist
 
+    public GameObject light1;
+    private Light light1Component; // Light-Komponente des ersten Lichts
+    public GameObject light2;
+    private Light light2Component; // Light-Komponente des zweiten Lichts
+
+
+    public GameObject highBeam1; // Fernlicht 1
+    private Light highBeam1Component;
+    public GameObject highBeam2; // Fernlicht 2
+    private Light highBeam2Component;
+
+    private int lightMode = 0; // Speichert den aktuellen Lichtmodus
+
     void Start()
     {
         // Holen der Light-Komponenten von den zugewiesenen GameObjects
         bluelight = blueLightObject.GetComponent<Light>();
         redLight = redLightObject.GetComponent<Light>();
+        light1Component = light1.GetComponent<Light>();
+        light2Component = light2.GetComponent<Light>();
+        highBeam1Component = highBeam1.GetComponent<Light>();
+        highBeam2Component = highBeam2.GetComponent<Light>();
 
-        // Sicherstellen, dass beide Lichter initial ausgeschaltet sind
+        // Sicherstellen, dass alle Lichter initial ausgeschaltet sind
         bluelight.enabled = false;
         redLight.enabled = false;
+        light1Component.enabled = false;
+        light2Component.enabled = false;
+        highBeam1Component.enabled = false;
+        highBeam2Component.enabled = false;
     }
 
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            // Lichtmodus durchschalten
+            lightMode = (lightMode + 1) % 3; // Es gibt 3 Modi (0 bis 2)
+
+            // Alle Lichter ausschalten
+            light1Component.enabled = false;
+            light2Component.enabled = false;
+            highBeam1Component.enabled = false;
+            highBeam2Component.enabled = false;
+
+            // Lichtmodus aktivieren
+            switch (lightMode)
+            {
+                case 0: // Alle Lichter aus
+                    break;
+                case 1: // Licht an
+                    light1Component.enabled = true;
+                    light2Component.enabled = true;
+                    break;
+                case 2: // Alles an (Fernlicht und Licht)
+                    light1Component.enabled = true;
+                    light2Component.enabled = true;
+                    highBeam1Component.enabled = true;
+                    highBeam2Component.enabled = true;
+                    break;
+            }
+        }
+
         // Überprüfen, ob die Taste "F" gedrückt wurde
         if (Input.GetKeyDown(KeyCode.F))
         {

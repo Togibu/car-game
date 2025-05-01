@@ -50,6 +50,7 @@
   <ItemGroup>
     <Compile Include="Assets/policelight.cs" />
     <Compile Include="Assets/cam_movement.cs" />
+    <Compile Include="Assets/sun.cs" />
     <Compile Include="Assets/movement.cs" />
   </ItemGroup>
   <ItemGroup>
