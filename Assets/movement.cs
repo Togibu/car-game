@@ -31,6 +31,10 @@ public class movement : MonoBehaviour
             // Auto zurücksetzen, wenn es unter die Bodenhöhe fällt
             transform.position = resetPosition.position;
             transform.rotation = resetPosition.rotation;
+            
+            rb.velocity = Vector3.zero;       // Stoppt lineare Bewegung
+            rb.angularVelocity = Vector3.zero; // Stoppt Rotation
+
         }
         Vector3 speeed = new Vector3(rb.linearVelocity.x, 0f, rb.linearVelocity.z);
         if (speeed.magnitude > MaxSpeed)
@@ -44,6 +48,10 @@ public class movement : MonoBehaviour
             // Auto zurücksetzen
             transform.position = resetPosition.position;
             transform.rotation = resetPosition.rotation;
+           
+            rb.velocity = Vector3.zero;       // Stoppt lineare Bewegung
+            rb.angularVelocity = Vector3.zero; // Stoppt Rotation
+
             
         }
         // Vorwärtsbewegung
