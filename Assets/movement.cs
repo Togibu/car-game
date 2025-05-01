@@ -27,6 +27,7 @@ public class movement : MonoBehaviour
     void Update()
     {
         Vector3 maxPosition = transform.position;
+        /*
         if (maxPosition.y < -30f || maxPosition.y > 30f || 
             maxPosition.x < -Ground.transform.localScale.x / 2f || maxPosition.x > Ground.transform.localScale.x / 2f || 
             maxPosition.z < -Ground.transform.localScale.z / 2f || maxPosition.z > Ground.transform.localScale.z / 2f)
@@ -38,6 +39,7 @@ public class movement : MonoBehaviour
             rb.linearVelocity = Vector3.zero;       // Stoppt lineare Bewegung
             rb.angularVelocity = Vector3.zero; // Stoppt Rotation
         }
+        */
         Vector3 speeed = new Vector3(rb.linearVelocity.x, 0f, rb.linearVelocity.z);
         if (speeed.magnitude > MaxSpeed)
         {
