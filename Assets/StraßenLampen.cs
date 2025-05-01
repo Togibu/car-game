@@ -6,20 +6,20 @@ public class StraßenLampen : MonoBehaviour
     private Light lightComponent; // Referenz zur Light-Komponente der Straßenlampe
     public GameObject Sun; // Referenz zur Sonne
 
-    // Start is called before the first frame update
+    // Start is called before the first Frame-Update
     void Start()
     {
         lightComponent = lightPrefab.GetComponent<Light>();
     }
 
-    // Update is called once per frame
+    // Update wird einmal pro Frame aufgerufen
     void Update()
     {
         // Berechne den Winkel der Sonne zur Weltachse
         float sunAngle = Sun.transform.eulerAngles.x;
 
-        // Wenn die Sonne untergeht (z. B. Winkel zwischen 180° und 360°), Lampen einschalten
-        if (sunAngle > 180f && sunAngle < 360f)
+        // Wenn die Sonne untergeht (z. B. Winkel zwischen 90° und 360°), Lampen einschalten
+        if (sunAngle > 90f && sunAngle < 360f)
         {
             lightComponent.intensity = 3; // Straßenlampe einschalten
         }

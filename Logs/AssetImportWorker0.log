@@ -3714,3 +3714,745 @@ Memory consumption went from 160.4 MB to 159.7 MB.
 Total: 7.881324 ms (FindLiveObjects: 0.404062 ms CreateObjectMapping: 0.407383 ms MarkObjects: 6.187672 ms  DeleteObjects: 0.881318 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.947 seconds
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.935 seconds
+Domain Reload Profiling: 1885ms
+	BeginReloadAssembly (256ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (91ms)
+	RebuildCommonClasses (75ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (554ms)
+		LoadAssemblies (397ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (255ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (232ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (936ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (721ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (145ms)
+			ProcessInitializeOnLoadAttributes (514ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3303 unused Assets / (0.9 MB). Loaded Objects now: 3792.
+Memory consumption went from 161.4 MB to 160.5 MB.
+Total: 8.649983 ms (FindLiveObjects: 0.398902 ms CreateObjectMapping: 0.619410 ms MarkObjects: 6.585691 ms  DeleteObjects: 1.044921 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 4992.780732 seconds.
+  path: Assets/sun.cs
+  artifactKey: Guid(531c0f1b79aca470a9142c9e0959ebdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sun.cs using Guid(531c0f1b79aca470a9142c9e0959ebdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7294874ad550bee9a79c79749a9b6e47') in 0.001918846 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.939 seconds
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.931 seconds
+Domain Reload Profiling: 1872ms
+	BeginReloadAssembly (251ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (90ms)
+	RebuildCommonClasses (74ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (551ms)
+		LoadAssemblies (393ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (255ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (231ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (931ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (718ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (141ms)
+			ProcessInitializeOnLoadAttributes (515ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3303 unused Assets / (0.7 MB). Loaded Objects now: 3792.
+Memory consumption went from 162.5 MB to 161.8 MB.
+Total: 7.673671 ms (FindLiveObjects: 0.399050 ms CreateObjectMapping: 0.410960 ms MarkObjects: 6.001672 ms  DeleteObjects: 0.861023 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.938 seconds
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.927 seconds
+Domain Reload Profiling: 1867ms
+	BeginReloadAssembly (251ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (91ms)
+	RebuildCommonClasses (74ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (550ms)
+		LoadAssemblies (392ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (255ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (231ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (928ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (713ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (143ms)
+			ProcessInitializeOnLoadAttributes (513ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3303 unused Assets / (1.0 MB). Loaded Objects now: 3792.
+Memory consumption went from 163.5 MB to 162.5 MB.
+Total: 8.833589 ms (FindLiveObjects: 0.457082 ms CreateObjectMapping: 0.560889 ms MarkObjects: 6.356540 ms  DeleteObjects: 1.457847 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 482.214103 seconds.
+  path: Assets/assets/city/roads/bridge_pillar.fbx
+  artifactKey: Guid(294e78f71372d4e5dba5de6f062a7af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/roads/bridge_pillar.fbx using Guid(294e78f71372d4e5dba5de6f062a7af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd975aec0eb273a148d95e6d050de5f2a') in 0.266770443 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/assets/city/roads/road_slant.fbx
+  artifactKey: Guid(4f753ba63bfc84a5892590c68db9427b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/roads/road_slant.fbx using Guid(4f753ba63bfc84a5892590c68db9427b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b3b8a0d7224dbf34ce4ead0b3fd9e326') in 0.102428073 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/assets/city/roads/road_bendSidewalk.fbx
+  artifactKey: Guid(c9261a29ca5274af68538d8ae2ec92c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/roads/road_bendSidewalk.fbx using Guid(c9261a29ca5274af68538d8ae2ec92c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cdbf5b6cef65856539db0f18052b67ea') in 0.086518255 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/assets/city/roads/road_curveBarrier.fbx
+  artifactKey: Guid(03f1f23747bbd4bc88a633e35746766c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/roads/road_curveBarrier.fbx using Guid(03f1f23747bbd4bc88a633e35746766c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '79dfe5da185746a5625dd791ac906788') in 0.066509419 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/assets/city/roads/road_drivewaySingleBarrier.fbx
+  artifactKey: Guid(c1dbfd8d6bc6d4840943ef8d7b3ffda5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/roads/road_drivewaySingleBarrier.fbx using Guid(c1dbfd8d6bc6d4840943ef8d7b3ffda5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2247c9d97c93a9eb880b7ae0995dac8e') in 0.020327371 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/assets/city/roads/road_slantFlat.fbx
+  artifactKey: Guid(a4627360a316140b381d5fd816a41e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/roads/road_slantFlat.fbx using Guid(a4627360a316140b381d5fd816a41e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '26ea5358df83b0da0d650d549402a6a7') in 0.121829544 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/assets/city/roads/road_roundaboutBarrier.fbx
+  artifactKey: Guid(c04a4adb58fd64ee0b7670e8e44fdb85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/roads/road_roundaboutBarrier.fbx using Guid(c04a4adb58fd64ee0b7670e8e44fdb85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32fd874ab308587bb8121427a5f05e97') in 0.031305497 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/assets/city/roads/road_curveIntersection.fbx
+  artifactKey: Guid(3ea98afd520d3454cb1cd691e5d4a12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/roads/road_curveIntersection.fbx using Guid(3ea98afd520d3454cb1cd691e5d4a12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '759f41422ccc8b7fe933584d9debaf73') in 0.137465751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/assets/city/roads/road_crossroad.fbx
+  artifactKey: Guid(309b32f335b4a4984bc36d7bdc22a6db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/roads/road_crossroad.fbx using Guid(309b32f335b4a4984bc36d7bdc22a6db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f5bbf5d5f09548b8f2aff70ea5f53281') in 0.08417751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/assets/city/roads/road_crossroadPath.fbx
+  artifactKey: Guid(c01582298435c45058d7a469d7a1cc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/roads/road_crossroadPath.fbx using Guid(c01582298435c45058d7a469d7a1cc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b81b6afc27d6c33a132adc7ee9d4e39c') in 0.087960556 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/assets/city/roads/light_curvedDouble.fbx
+  artifactKey: Guid(86befbf9a9a5f465b948c5a8414850c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/roads/light_curvedDouble.fbx using Guid(86befbf9a9a5f465b948c5a8414850c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '028c4b67d7f06d6460e75fb83b80a7b4') in 0.111004676 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/assets/city/roads/construction_pylon.fbx
+  artifactKey: Guid(cfded843ebfd5457d988b255351917d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/roads/construction_pylon.fbx using Guid(cfded843ebfd5457d988b255351917d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '165fdc93084d8dbae059b796fbb82579') in 0.063216518 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/assets/city/roads/road_intersectionLine.fbx
+  artifactKey: Guid(b019e5666bdc44e8baad6765b4485bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/roads/road_intersectionLine.fbx using Guid(b019e5666bdc44e8baad6765b4485bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c1b10dcfe56dcc40fcf64725bad8076') in 0.100138936 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/assets/city/roads/road_drivewayDouble.fbx
+  artifactKey: Guid(1e3139c83929c4c908dd3dec4207a830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/roads/road_drivewayDouble.fbx using Guid(1e3139c83929c4c908dd3dec4207a830) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd525507ecce86999319b7d89e817f458') in 0.101575982 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/assets/city/roads/road_intersectionPath.fbx
+  artifactKey: Guid(f464bbba2ba6147679478500c72ec0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/roads/road_intersectionPath.fbx using Guid(f464bbba2ba6147679478500c72ec0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3eea9139404fe60f7c4bd3b4894beb9b') in 0.077309677 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/assets/city/roads/road_slantCurveBarrier.fbx
+  artifactKey: Guid(f117ca304aefa4393af1ab91ec9a670a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/roads/road_slantCurveBarrier.fbx using Guid(f117ca304aefa4393af1ab91ec9a670a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa5342de85f3571b5fa278f06e941a0d') in 0.056037096 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/assets/city/roads/road_curveIntersectionBarrier.fbx
+  artifactKey: Guid(01c0c17d39d85411b89a5b6fae4fd447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/roads/road_curveIntersectionBarrier.fbx using Guid(01c0c17d39d85411b89a5b6fae4fd447) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fae0b955eb757c34a32d8f8e8916a039') in 0.047872747 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/assets/city/roads/construction_light.fbx
+  artifactKey: Guid(6e72f62cee0474aae92094d9c6e947ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/roads/construction_light.fbx using Guid(6e72f62cee0474aae92094d9c6e947ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e1309aa3c0a05db64cb9c8153afae52e') in 0.094301817 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/assets/city/roads/road_slantHighBarrier.fbx
+  artifactKey: Guid(b783438ed24d6430990381a0ff9b0506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/roads/road_slantHighBarrier.fbx using Guid(b783438ed24d6430990381a0ff9b0506) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b1f11d1224e1f120090a03659ded276') in 0.043442337 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/assets/city/roads/road_crossroadLine.fbx
+  artifactKey: Guid(0cff6fac6a2d14aad95095666cab7da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/roads/road_crossroadLine.fbx using Guid(0cff6fac6a2d14aad95095666cab7da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5cc8f977703227d53bea4dc26d9d0c92') in 0.122366722 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/assets/city/roads/road_sideExit.fbx
+  artifactKey: Guid(b987c7e651d6440d789e424b958dc65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/roads/road_sideExit.fbx using Guid(b987c7e651d6440d789e424b958dc65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b1564af6f7fc6f8736d52ac20cea441e') in 0.130502751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/assets/city/roads/road_side.fbx
+  artifactKey: Guid(83f9d677bcfdb4e9d93bf3db359fdb83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/roads/road_side.fbx using Guid(83f9d677bcfdb4e9d93bf3db359fdb83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97e9c83a509e59df6179f2803d1dab59') in 0.105169824 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/assets/city/roads/road_split.fbx
+  artifactKey: Guid(36d0e956920e647b8897d0e3c37c71ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/roads/road_split.fbx using Guid(36d0e956920e647b8897d0e3c37c71ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7885242fb707a45a01f41908206ff98c') in 0.126572973 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/assets/city/roads/road_curve.fbx
+  artifactKey: Guid(0cd72a7c95a0240c2a20cc5aed0f6223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/roads/road_curve.fbx using Guid(0cd72a7c95a0240c2a20cc5aed0f6223) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07c9fa320c8a3d68fcdfceea784ade7f') in 0.135736197 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/assets/city/roads/road_bendSquareBarrier.fbx
+  artifactKey: Guid(53611c9bc47c548ddbc52b40ed262456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/roads/road_bendSquareBarrier.fbx using Guid(53611c9bc47c548ddbc52b40ed262456) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3ce467d4ac026d9984ae6f1802649d1') in 0.046769957 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/assets/city/roads/road_drivewayDoubleBarrier.fbx
+  artifactKey: Guid(d3ce59818f23441f19f3cf87f667e4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/roads/road_drivewayDoubleBarrier.fbx using Guid(d3ce59818f23441f19f3cf87f667e4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b9713f18bd4207417d0c71ebb105839') in 0.08852649 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/assets/city/roads/road_slantHigh.fbx
+  artifactKey: Guid(a408a4dba9b9e4a0da7b4f8eb45a4de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/roads/road_slantHigh.fbx using Guid(a408a4dba9b9e4a0da7b4f8eb45a4de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2cf07e4cf6f629ccabb53b5022eecda5') in 0.113624709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/assets/city/roads/road_crossroadBarrier.fbx
+  artifactKey: Guid(793e198da435c42f89a54a4e380afae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/roads/road_crossroadBarrier.fbx using Guid(793e198da435c42f89a54a4e380afae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1252390fb0e4efe693efe17dc2910053') in 0.053751554 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.949 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.930 seconds
+Domain Reload Profiling: 1882ms
+	BeginReloadAssembly (256ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (92ms)
+	RebuildCommonClasses (74ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (555ms)
+		LoadAssemblies (401ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (257ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (232ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (931ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (716ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (141ms)
+			ProcessInitializeOnLoadAttributes (519ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3303 unused Assets / (0.9 MB). Loaded Objects now: 3836.
+Memory consumption went from 167.4 MB to 166.5 MB.
+Total: 8.630251 ms (FindLiveObjects: 0.405681 ms CreateObjectMapping: 0.472171 ms MarkObjects: 6.700678 ms  DeleteObjects: 1.050602 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3297 unused Assets / (0.9 MB). Loaded Objects now: 3836.
+Memory consumption went from 162.3 MB to 161.4 MB.
+Total: 8.032672 ms (FindLiveObjects: 0.409357 ms CreateObjectMapping: 0.437732 ms MarkObjects: 6.112285 ms  DeleteObjects: 1.072350 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.935 seconds
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.891 seconds
+Domain Reload Profiling: 1828ms
+	BeginReloadAssembly (249ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (86ms)
+	RebuildCommonClasses (74ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (549ms)
+		LoadAssemblies (390ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (260ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (233ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (891ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (687ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (146ms)
+			ProcessInitializeOnLoadAttributes (483ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3303 unused Assets / (0.8 MB). Loaded Objects now: 3836.
+Memory consumption went from 168.2 MB to 167.4 MB.
+Total: 7.822444 ms (FindLiveObjects: 0.403820 ms CreateObjectMapping: 0.438431 ms MarkObjects: 6.033193 ms  DeleteObjects: 0.946099 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.940 seconds
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.928 seconds
+Domain Reload Profiling: 1871ms
+	BeginReloadAssembly (254ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (94ms)
+	RebuildCommonClasses (75ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (548ms)
+		LoadAssemblies (389ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (256ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (233ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (928ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (717ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (141ms)
+			ProcessInitializeOnLoadAttributes (514ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3303 unused Assets / (0.8 MB). Loaded Objects now: 3836.
+Memory consumption went from 169.3 MB to 168.5 MB.
+Total: 7.919914 ms (FindLiveObjects: 0.411399 ms CreateObjectMapping: 0.415162 ms MarkObjects: 5.978950 ms  DeleteObjects: 1.113450 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3297 unused Assets / (0.8 MB). Loaded Objects now: 3836.
+Memory consumption went from 164.2 MB to 163.4 MB.
+Total: 8.224387 ms (FindLiveObjects: 0.381208 ms CreateObjectMapping: 0.443266 ms MarkObjects: 6.364093 ms  DeleteObjects: 1.034646 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.944 seconds
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.933 seconds
+Domain Reload Profiling: 1879ms
+	BeginReloadAssembly (250ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (89ms)
+	RebuildCommonClasses (74ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (557ms)
+		LoadAssemblies (392ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (260ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (234ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (933ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (724ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (142ms)
+			ProcessInitializeOnLoadAttributes (526ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3303 unused Assets / (0.9 MB). Loaded Objects now: 3836.
+Memory consumption went from 170.1 MB to 169.3 MB.
+Total: 8.361846 ms (FindLiveObjects: 0.405192 ms CreateObjectMapping: 0.584473 ms MarkObjects: 6.385821 ms  DeleteObjects: 0.985389 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.944 seconds
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.936 seconds
+Domain Reload Profiling: 1882ms
+	BeginReloadAssembly (252ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (90ms)
+	RebuildCommonClasses (74ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (553ms)
+		LoadAssemblies (393ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (257ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (233ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (936ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (722ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (142ms)
+			ProcessInitializeOnLoadAttributes (516ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3303 unused Assets / (0.8 MB). Loaded Objects now: 3836.
+Memory consumption went from 171.2 MB to 170.4 MB.
+Total: 8.185994 ms (FindLiveObjects: 0.408583 ms CreateObjectMapping: 0.488019 ms MarkObjects: 6.203845 ms  DeleteObjects: 1.084536 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3297 unused Assets / (0.7 MB). Loaded Objects now: 3836.
+Memory consumption went from 166.1 MB to 165.3 MB.
+Total: 7.958095 ms (FindLiveObjects: 0.406335 ms CreateObjectMapping: 0.433277 ms MarkObjects: 6.169860 ms  DeleteObjects: 0.947392 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.938 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.936 seconds
+Domain Reload Profiling: 1876ms
+	BeginReloadAssembly (251ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (89ms)
+	RebuildCommonClasses (74ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (550ms)
+		LoadAssemblies (390ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (258ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (233ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (937ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (728ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (140ms)
+			ProcessInitializeOnLoadAttributes (523ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3303 unused Assets / (0.9 MB). Loaded Objects now: 3836.
+Memory consumption went from 172.0 MB to 171.1 MB.
+Total: 8.351511 ms (FindLiveObjects: 0.418889 ms CreateObjectMapping: 0.467093 ms MarkObjects: 6.458582 ms  DeleteObjects: 1.005679 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.931 seconds
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.936 seconds
+Domain Reload Profiling: 1870ms
+	BeginReloadAssembly (247ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (86ms)
+	RebuildCommonClasses (73ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (547ms)
+		LoadAssemblies (388ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (255ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (232ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (937ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (725ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (142ms)
+			ProcessInitializeOnLoadAttributes (520ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3303 unused Assets / (0.7 MB). Loaded Objects now: 3836.
+Memory consumption went from 173.1 MB to 172.3 MB.
+Total: 8.402917 ms (FindLiveObjects: 0.392233 ms CreateObjectMapping: 0.421440 ms MarkObjects: 6.586314 ms  DeleteObjects: 1.001801 ms)
+
+Prepare: number of updated asset objects reloaded= 0
