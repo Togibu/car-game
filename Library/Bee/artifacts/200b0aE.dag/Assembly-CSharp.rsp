@@ -397,6 +397,7 @@
 "Assets/cam_movement.cs"
 "Assets/movement.cs"
 "Assets/policelight.cs"
+"Assets/StraßenLampen.cs"
 "Assets/sun.cs"
 -langversion:9.0
 /deterministic
