@@ -39,8 +39,8 @@ public class cam_movement : MonoBehaviour
             idleTime += Time.deltaTime; // Timer erhöhen, wenn keine Eingabe erfolgt
         }
 
-        // Überprüfen, ob die Taste "C" gedrückt wird
-        if (Input.GetKey(KeyCode.C))
+        // Überprüfen, ob eine Maustaste gedrückt wird
+        if (Input.GetMouseButton(0) || Input.GetMouseButton(1) || Input.GetMouseButton(2)) // Linke, rechte oder mittlere Maustaste
         {
             isRotating = true;
         }
@@ -49,7 +49,7 @@ public class cam_movement : MonoBehaviour
             isRotating = false;
         }
 
-        // Kamera mit der Maus bewegen, wenn "C" gedrückt wird
+        // Kamera mit der Maus bewegen, wenn eine Maustaste gedrückt wird
         if (isRotating)
         {
             float mouseX = Input.GetAxis("Mouse X") * rotationSpeed;
