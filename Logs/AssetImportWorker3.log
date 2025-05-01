@@ -566,3 +566,166 @@ Memory consumption went from 93.4 MB to 92.5 MB.
 Total: 8.707529 ms (FindLiveObjects: 0.407958 ms CreateObjectMapping: 0.423433 ms MarkObjects: 6.453638 ms  DeleteObjects: 1.421174 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1015.403425 seconds.
+  path: Assets/assets/cars/ambulance.fbx
+  artifactKey: Guid(2985cb0d267ef4878bbf1aaeb141c581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/cars/ambulance.fbx using Guid(2985cb0d267ef4878bbf1aaeb141c581) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '430400a849f92d57ead5f439aa859a4f') in 0.261205509 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 47
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/assets/cars/raceFuture.fbx
+  artifactKey: Guid(e16a8a1cd665e4a96bd5c42d02749348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/cars/raceFuture.fbx using Guid(e16a8a1cd665e4a96bd5c42d02749348) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '44df6ac6f006ec71210d659521c62ef3') in 0.095986075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/assets/cars/wheelTractorDarkFront.fbx
+  artifactKey: Guid(01a4e1f751c5f42a897a5e1d04df0a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/cars/wheelTractorDarkFront.fbx using Guid(01a4e1f751c5f42a897a5e1d04df0a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5e8fdbdcf87843fe2f6e632725a2f08') in 0.028837742 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/assets/cars/tractor.fbx
+  artifactKey: Guid(2f5272ca79b834818bce7778fb4c3d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/cars/tractor.fbx using Guid(2f5272ca79b834818bce7778fb4c3d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aca2328cb4056bfbdc1a4500628fc2d4') in 0.107248396 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 41
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/assets/cars/wheelTractorFront.fbx
+  artifactKey: Guid(e11a22c8936ea4bbbbfb334b9bff2ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/cars/wheelTractorFront.fbx using Guid(e11a22c8936ea4bbbbfb334b9bff2ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '089333d8874dcfbb28096d94ca5b6916') in 0.031811213 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/assets/cars/garbageTruck.fbx
+  artifactKey: Guid(43d193435ae4041d7a883f72c15308cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/cars/garbageTruck.fbx using Guid(43d193435ae4041d7a883f72c15308cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '08b7886235aaff5feb3ff6e4d8b682d6') in 0.112271689 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/assets/cars/van.fbx
+  artifactKey: Guid(7109a8b37e807494aa9f7340dcb64424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/cars/van.fbx using Guid(7109a8b37e807494aa9f7340dcb64424) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07e07d4df2bb938ebca807f53f152177') in 0.109630515 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/assets/cars/wheelDark.fbx
+  artifactKey: Guid(15596d3f20c504c06aa56f53cfe9f039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/cars/wheelDark.fbx using Guid(15596d3f20c504c06aa56f53cfe9f039) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ade2515f0000716a4fe01e9a0095ee5') in 0.025076716 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/assets/cars/police.fbx
+  artifactKey: Guid(02fc04ccab4c44d6a948c0fdf72a6904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/cars/police.fbx using Guid(02fc04ccab4c44d6a948c0fdf72a6904) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c57f6df1664ecddafd27941855529cfc') in 0.115223536 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/assets/cars/wheelRacing.fbx
+  artifactKey: Guid(332463eb271864855b35b05876a780ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/cars/wheelRacing.fbx using Guid(332463eb271864855b35b05876a780ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7393a889676024533d1870584af1e4b') in 0.031086694 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/assets/cars/wheelTractorBack.fbx
+  artifactKey: Guid(c78c9ea1b5b144d23a000e9a0accae06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/cars/wheelTractorBack.fbx using Guid(c78c9ea1b5b144d23a000e9a0accae06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eeed9b55e8280c1bde8a84b265061b9c') in 0.034518897 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/assets/cars/delivery.fbx
+  artifactKey: Guid(e307117b8811f4ac8a1206a78f4dc60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/cars/delivery.fbx using Guid(e307117b8811f4ac8a1206a78f4dc60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd4225cc81896bcf70f2d8c04ac919ed7') in 0.10287123 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/assets/cars/sedan.fbx
+  artifactKey: Guid(e6cf465ede268454aa139ef8ad140493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/cars/sedan.fbx using Guid(e6cf465ede268454aa139ef8ad140493) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f92a9df86665c202cd02088d3b9d4afe') in 0.11237096 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/assets/cars/firetruck.fbx
+  artifactKey: Guid(2aaf04044f3064a63b1e2c3c946134c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/cars/firetruck.fbx using Guid(2aaf04044f3064a63b1e2c3c946134c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de0ecb556a3acd1a7831b21c9a6cd7d8') in 0.107683904 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.684 seconds
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.919 seconds
+Domain Reload Profiling: 1606ms
+	BeginReloadAssembly (188ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (67ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (400ms)
+		LoadAssemblies (298ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (178ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (161ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (920ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (764ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (156ms)
+			ProcessInitializeOnLoadAttributes (555ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3301 unused Assets / (0.9 MB). Loaded Objects now: 3834.
+Memory consumption went from 94.7 MB to 93.7 MB.
+Total: 6.908862 ms (FindLiveObjects: 0.351509 ms CreateObjectMapping: 0.454647 ms MarkObjects: 5.060706 ms  DeleteObjects: 1.041131 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting

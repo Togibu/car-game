@@ -1,0 +1,747 @@
+Unity Editor version:    6000.0.47f1 (2ad1ed33fd3b)
+Branch:                  6000.0/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.5 (Build 23F79)
+Darwin version:          23.5.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        65536 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/6000.0.47f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+/Users/leoredeker/workspace/unity/car-game
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+56306
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: /Users/leoredeker/workspace/unity/car-game
+/Users/leoredeker/workspace/unity/car-game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [140704330301376]  Target information:
+
+Player connection [140704330301376]  * "[IP] 192.168.178.43 [Port] 0 [Flags] 2 [Guid] 1745237314 [EditorId] 1745237314 [Version] 1048832 [Id] OSXEditor(0,Proxima-Centauri.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [140704330301376] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [140704330301376] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.47f1 (2ad1ed33fd3b)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.0.47f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/leoredeker/workspace/unity/car-game/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Color LCD preferred device: AMD Radeon Pro 5500M (high power)
+Metal devices available: 2
+0: AMD Radeon Pro 5500M (high power)
+1: Intel(R) UHD Graphics 630 (low power)
+Using device AMD Radeon Pro 5500M (high power)
+Initializing Metal device caps: AMD Radeon Pro 5500M
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/6000.0.47f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/6000.0.47f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/6000.0.47f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56166
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/6000.0.47f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001021 seconds.
+- Loaded All Assemblies, in  0.491 seconds
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.444 seconds
+Domain Reload Profiling: 935ms
+	BeginReloadAssembly (137ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (203ms)
+		LoadAssemblies (136ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (200ms)
+			TypeCache.Refresh (198ms)
+				TypeCache.ScanAssembly (183ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (444ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (393ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (48ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (165ms)
+			ProcessInitializeOnLoadMethodAttributes (102ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.670 seconds
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.622 seconds
+Domain Reload Profiling: 1293ms
+	BeginReloadAssembly (169ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (399ms)
+		LoadAssemblies (268ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (207ms)
+			TypeCache.Refresh (173ms)
+				TypeCache.ScanAssembly (158ms)
+			BuildScriptInfoCaches (26ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (623ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (489ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (96ms)
+			ProcessInitializeOnLoadAttributes (356ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Launching external process: /Applications/Unity/Hub/Editor/6000.0.47f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3303 unused Assets / (0.8 MB). Loaded Objects now: 3788.
+Memory consumption went from 81.8 MB to 81.0 MB.
+Total: 7.274516 ms (FindLiveObjects: 0.359496 ms CreateObjectMapping: 0.320600 ms MarkObjects: 5.354629 ms  DeleteObjects: 1.238986 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 18315.461692 seconds.
+  path: Assets/assets/city/buildings urban/low_buildingC.fbx
+  artifactKey: Guid(879c45b30a61e4baebaff5cfb9d7cc2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/buildings urban/low_buildingC.fbx using Guid(879c45b30a61e4baebaff5cfb9d7cc2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92f569127011789bc4e5b6b7a3917b4e') in 0.223677673 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/assets/city/buildings urban/small_buildingA.fbx
+  artifactKey: Guid(8c90195396fbc4d7d89ab56514384e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/buildings urban/small_buildingA.fbx using Guid(8c90195396fbc4d7d89ab56514384e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'befe3545f3aaacddf4fd874a3157da21') in 0.037332521 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/assets/city/buildings urban/small_buildingC.fbx
+  artifactKey: Guid(04740dd17c8d7408a809b971284362a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/buildings urban/small_buildingC.fbx using Guid(04740dd17c8d7408a809b971284362a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f2eb214895822362e6acfa90ad2fc9b4') in 0.043262691 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/assets/city/buildings urban/sign_hospital.fbx
+  artifactKey: Guid(f8057520eedbc4c0b863a6869a3bc547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/buildings urban/sign_hospital.fbx using Guid(f8057520eedbc4c0b863a6869a3bc547) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '979eb071a941bb3cc433342a8ea72947') in 0.036195473 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/assets/city/buildings urban/low_buildingF.fbx
+  artifactKey: Guid(003839d75901147c8bd7d89a1cbdf909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/buildings urban/low_buildingF.fbx using Guid(003839d75901147c8bd7d89a1cbdf909) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cdbbfb41c4fca5b4029d54978ed31a33') in 0.033013846 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/assets/city/buildings urban/low_buildingM.fbx
+  artifactKey: Guid(e1997141f2597436985cf85269a83526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/buildings urban/low_buildingM.fbx using Guid(e1997141f2597436985cf85269a83526) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '72c0d929e511344b5ce9dd38a7a5d34c') in 0.034754783 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/assets/city/buildings urban/low_buildingJ.fbx
+  artifactKey: Guid(0e1d462a389644034b27073f87281b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/buildings urban/low_buildingJ.fbx using Guid(0e1d462a389644034b27073f87281b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '322374e5fd388c9282310ee791499813') in 0.034858319 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/assets/city/buildings urban/roof_corner.fbx
+  artifactKey: Guid(6ddb03f7e629d40a4923144348c12711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/buildings urban/roof_corner.fbx using Guid(6ddb03f7e629d40a4923144348c12711) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd81cf3c34214b406cea8c911612f0fb4') in 0.026895326 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/assets/city/buildings urban/roof_overhang.fbx
+  artifactKey: Guid(ef0b954069a5d4a45aefb188f7ef5b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/buildings urban/roof_overhang.fbx using Guid(ef0b954069a5d4a45aefb188f7ef5b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8787e72cd4eb4b9b6ab2708e1a53e89e') in 0.025506946 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.423526 seconds.
+  path: Assets/assets/city/suburban/driveway_short.fbx
+  artifactKey: Guid(6db1b593ce26c4e1a83370048180c3f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/suburban/driveway_short.fbx using Guid(6db1b593ce26c4e1a83370048180c3f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fbbf3e12c15345982c28d7bee3ba1b8d') in 0.034668041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/assets/city/suburban/fence_short.fbx
+  artifactKey: Guid(e731cef06d7714bdfa77503f83976457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/suburban/fence_short.fbx using Guid(e731cef06d7714bdfa77503f83976457) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8594920d2baa00bd33b88270f8a93daa') in 0.020910893 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/assets/city/suburban/fence_small.fbx
+  artifactKey: Guid(b03c618ccf06640eb962c75a6b9aa0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/suburban/fence_small.fbx using Guid(b03c618ccf06640eb962c75a6b9aa0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84534e5072cab4f246a7761e884fe9c3') in 0.021757455 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/assets/city/suburban/house_type18.fbx
+  artifactKey: Guid(2dcb97b3f3ff24af196819f4d32c1455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/suburban/house_type18.fbx using Guid(2dcb97b3f3ff24af196819f4d32c1455) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f1e5a13f962cb890cc6a4cda7865c58e') in 0.04538637 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/assets/city/suburban/house_type01.fbx
+  artifactKey: Guid(805c453fc3ed947a78a3c5602b2f76e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/suburban/house_type01.fbx using Guid(805c453fc3ed947a78a3c5602b2f76e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f66ef9ebcae544b3fac2a65cb9b419e') in 0.049256819 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/assets/city/suburban/path_tilesLong.fbx
+  artifactKey: Guid(16ff330f6857249c4bf5410a1b0c15fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/suburban/path_tilesLong.fbx using Guid(16ff330f6857249c4bf5410a1b0c15fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8bc04468ae61d3383049aeb237616eea') in 0.030316974 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/assets/city/suburban/house_type02.fbx
+  artifactKey: Guid(cc9e4754b56f545c083180fa70d3229b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/suburban/house_type02.fbx using Guid(cc9e4754b56f545c083180fa70d3229b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18678d7947d360e10694d68bdd14a64b') in 0.053626556 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/assets/city/suburban/house_type17.fbx
+  artifactKey: Guid(4fd7194869ad94fc09a77a63720e1bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/suburban/house_type17.fbx using Guid(4fd7194869ad94fc09a77a63720e1bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd82931d6eefc04db2ee1461dea4c2f67') in 0.056845168 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/assets/city/suburban/house_type19.fbx
+  artifactKey: Guid(c267b71a99db544148178581e25eef85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/suburban/house_type19.fbx using Guid(c267b71a99db544148178581e25eef85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '31a328f5e709d90d8d2c3561a73b0da3') in 0.038018063 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.082808 seconds.
+  path: Assets/assets/city/science city/fountainCornerInner.fbx
+  artifactKey: Guid(d69bea6b2b3d9423fabed820917ffa7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/science city/fountainCornerInner.fbx using Guid(d69bea6b2b3d9423fabed820917ffa7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '35825d797de08e00f218eee3b614b54a') in 0.037954991 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/assets/city/science city/hedgeLarge.fbx
+  artifactKey: Guid(bb0b9cfcb749b4a31a396b3668779fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/science city/hedgeLarge.fbx using Guid(bb0b9cfcb749b4a31a396b3668779fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bbbbc0dbafa31b17464a30521df5d02f') in 0.028734869 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/assets/city/science city/fountainRoundDetail.fbx
+  artifactKey: Guid(95ae8c83bfabd4727908d8bd17935030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/science city/fountainRoundDetail.fbx using Guid(95ae8c83bfabd4727908d8bd17935030) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f612f12ef054ffd06680dddde523869') in 0.026488598 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/assets/city/science city/fountainSquareDetail.fbx
+  artifactKey: Guid(1c22a1a8fdf454b33978a5acc930c2ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/science city/fountainSquareDetail.fbx using Guid(1c22a1a8fdf454b33978a5acc930c2ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd96b00c05d406ed73d820d705f6ee0cf') in 0.039231719 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/assets/city/science city/rockLarge.fbx
+  artifactKey: Guid(94132687f04e74fc4886b8760231e8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/science city/rockLarge.fbx using Guid(94132687f04e74fc4886b8760231e8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9fe81ae12001be4862ef275e09711e84') in 0.019134122 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/assets/city/science city/fountainRound.fbx
+  artifactKey: Guid(3de501b45ecf64e0bbf7b390eba48d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/science city/fountainRound.fbx using Guid(3de501b45ecf64e0bbf7b390eba48d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2cc886457a3199d78d1ec940dab8ad02') in 0.038671466 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/assets/city/science city/polesHorizontal.fbx
+  artifactKey: Guid(b8342d88b86b54e9a8fcacd0c70ec8f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/science city/polesHorizontal.fbx using Guid(b8342d88b86b54e9a8fcacd0c70ec8f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e80bf4ed26c26cbbba615aaf4554b591') in 0.016968669 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/assets/city/science city/roofCorner.fbx
+  artifactKey: Guid(a8908f3dc89314547851ebef26765ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/science city/roofCorner.fbx using Guid(a8908f3dc89314547851ebef26765ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d0d63ef2eb2ac076566678681d0a33f') in 0.040488837 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/assets/city/science city/hedgeLargeGate.fbx
+  artifactKey: Guid(49886e20f4e984f79a69dbe6e722985c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/science city/hedgeLargeGate.fbx using Guid(49886e20f4e984f79a69dbe6e722985c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6443f4d45bc26a46c0303bd30b4dd51') in 0.029678701 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/assets/city/science city/roadSlope.fbx
+  artifactKey: Guid(fe3603740361f4cd8bf91f95e256046e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/science city/roadSlope.fbx using Guid(fe3603740361f4cd8bf91f95e256046e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f97f6f36191e457fa672dc3fb7c152a') in 0.022074241 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.494008 seconds.
+  path: Assets/assets/city/New Folder/flagTankco.fbx
+  artifactKey: Guid(347e943c5bf55469b8038e14b5b962c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/New Folder/flagTankco.fbx using Guid(347e943c5bf55469b8038e14b5b962c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97b7d937e685499d4eb7679914122d53') in 0.055987053 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/assets/city/New Folder/grandStandRound.fbx
+  artifactKey: Guid(ae351a18926884a6eb62aab8f2e1178e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/New Folder/grandStandRound.fbx using Guid(ae351a18926884a6eb62aab8f2e1178e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66bca1eb460ceeabe6cbda7b5b9924a0') in 0.039623587 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/assets/city/New Folder/lightPost_exclusive.fbx
+  artifactKey: Guid(378fbd925e38348358bca25411b167db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/New Folder/lightPost_exclusive.fbx using Guid(378fbd925e38348358bca25411b167db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2ee3f266ce94217341082757f47eff8f') in 0.031579507 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/assets/city/New Folder/lightColored.fbx
+  artifactKey: Guid(dfe9578ed9aba4f98a182efd7c4ea220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/New Folder/lightColored.fbx using Guid(dfe9578ed9aba4f98a182efd7c4ea220) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8da08026ecfafc442db53f8ab53642b1') in 0.050921172 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/assets/city/New Folder/rail.fbx
+  artifactKey: Guid(28c0554bd1d01472e96e9b6079e2d52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/New Folder/rail.fbx using Guid(28c0554bd1d01472e96e9b6079e2d52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1bb8f8f12032ce4c24dbdd4c3c6d761b') in 0.020982844 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/assets/city/New Folder/pitsGarage.fbx
+  artifactKey: Guid(99f98d7d1217945e0b53174acf6f7722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/New Folder/pitsGarage.fbx using Guid(99f98d7d1217945e0b53174acf6f7722) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b811f500e2f2ed5f9a388e2660b205c8') in 0.045173083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/assets/city/New Folder/roadCornerLarge.fbx
+  artifactKey: Guid(745f5776100d342a6b295c64d3107650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/New Folder/roadCornerLarge.fbx using Guid(745f5776100d342a6b295c64d3107650) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a0e075c6091a77e6530ec6a1125e07ad') in 0.03327045 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/assets/city/New Folder/lightRedDouble.fbx
+  artifactKey: Guid(4e36b827c19164d3aa10edc37c144c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/New Folder/lightRedDouble.fbx using Guid(4e36b827c19164d3aa10edc37c144c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e69888fa198d11da68e8389759e49e1') in 0.044538365 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/assets/city/New Folder/pylon.fbx
+  artifactKey: Guid(fc0b13d6778c344df97b5a04fd305753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/New Folder/pylon.fbx using Guid(fc0b13d6778c344df97b5a04fd305753) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de0b63ac4efbe6c9354fb6fb197d339e') in 0.017051022 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/assets/city/New Folder/raceCarGreen.fbx
+  artifactKey: Guid(b0f34997f5da34a03827fe0ddc511089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/New Folder/raceCarGreen.fbx using Guid(b0f34997f5da34a03827fe0ddc511089) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b344572225eb83e34a07efb69c50a93a') in 0.114341366 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.867755 seconds.
+  path: Assets/assets/city/nature/bridge_woodRound.fbx
+  artifactKey: Guid(f411c086f92424ac3ad485face61431e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/nature/bridge_woodRound.fbx using Guid(f411c086f92424ac3ad485face61431e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e1480f3400654fd1406de0659c268a5') in 0.039572375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/assets/city/nature/cliff_block_stone.fbx
+  artifactKey: Guid(c065c21c77dbf4c60aa8ae8a29bcc30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/nature/cliff_block_stone.fbx using Guid(c065c21c77dbf4c60aa8ae8a29bcc30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '279b094f25d6bdbd0fc1c72a9d6a0cc3') in 0.024812701 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/assets/city/nature/cliff_blockSlopeWalls_stone.fbx
+  artifactKey: Guid(120959c2c9e734d4b8a878ae9e5f7dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/nature/cliff_blockSlopeWalls_stone.fbx using Guid(120959c2c9e734d4b8a878ae9e5f7dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a600a2e2c40fd02f55c5202e12fd81ba') in 0.02668661 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/assets/city/nature/cliff_blockCave_rock.fbx
+  artifactKey: Guid(a93c81bbc35b441608374cb5ec67fb97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/nature/cliff_blockCave_rock.fbx using Guid(a93c81bbc35b441608374cb5ec67fb97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cde5ec399f80de7c98f5f1c749172e1a') in 0.026729148 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/assets/city/nature/cliff_blockSlopeHalfWalls_stone.fbx
+  artifactKey: Guid(effedadeb76d74563a6c6b6b749243c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/nature/cliff_blockSlopeHalfWalls_stone.fbx using Guid(effedadeb76d74563a6c6b6b749243c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5ddb6c8cc2fd96a66bc25a92839ec95') in 0.028130282 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/assets/city/nature/cliff_cornerTop_rock.fbx
+  artifactKey: Guid(d797ec19151664312a4a0915bce7289d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/nature/cliff_cornerTop_rock.fbx using Guid(d797ec19151664312a4a0915bce7289d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '35b33bfe799c8466e89453ae334970b6') in 0.025610035 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/assets/city/nature/cliff_cornerInnerTop_rock.fbx
+  artifactKey: Guid(1feab9aa6227647c4be1f7fab1b4611b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/nature/cliff_cornerInnerTop_rock.fbx using Guid(1feab9aa6227647c4be1f7fab1b4611b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '029354719eee455aeb155ebe941676f5') in 0.032419424 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/assets/city/nature/cliff_cornerInner_stone.fbx
+  artifactKey: Guid(be90a0b76b3bb4c63ba7e854c2c8cb7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/nature/cliff_cornerInner_stone.fbx using Guid(be90a0b76b3bb4c63ba7e854c2c8cb7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db174c91964b47442231e31f47cb110b') in 0.020343625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/assets/city/nature/campfire_planks.fbx
+  artifactKey: Guid(bc7bb88a0b9c0478da714c934fc48c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/nature/campfire_planks.fbx using Guid(bc7bb88a0b9c0478da714c934fc48c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d74637bb8eb791cbc8e47a98981ac82') in 0.023085307 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/assets/city/nature/cliff_corner_stone.fbx
+  artifactKey: Guid(e312b1afe55d5497794f854e772c0698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/nature/cliff_corner_stone.fbx using Guid(e312b1afe55d5497794f854e772c0698) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e1c928d57a28cc066a11d899183735ba') in 0.01661606 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.414710 seconds.
+  path: Assets/assets/city/nature/cliffBrown_cornerTop.fbx
+  artifactKey: Guid(64a644e0ca14d466e8371b9f67944002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/nature/cliffBrown_cornerTop.fbx using Guid(64a644e0ca14d466e8371b9f67944002) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c94c5d2b716feeda876695a020f83be9') in 0.028307565 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/assets/city/nature/fence_gate.fbx
+  artifactKey: Guid(812e5a656f5f74143a80b6b716a402ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/nature/fence_gate.fbx using Guid(812e5a656f5f74143a80b6b716a402ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aee6a52e04406f1dbea59a2febc37f30') in 0.043573977 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/assets/city/nature/cliffBrown_top.fbx
+  artifactKey: Guid(6f001f1c5f5084b67ad145f17a6af6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/nature/cliffBrown_top.fbx using Guid(6f001f1c5f5084b67ad145f17a6af6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62b6cbdd41a5a3dc7206f2c3ddc4857a') in 0.02627292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/assets/city/nature/cliffGrey.fbx
+  artifactKey: Guid(0c017047a0ac34e86b1d099e567a67b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/nature/cliffGrey.fbx using Guid(0c017047a0ac34e86b1d099e567a67b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c0a1239a23733363a849870d0672701') in 0.018181938 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/assets/city/nature/cliffGrey_blockQuarter.fbx
+  artifactKey: Guid(1d533e90eea1240d8a859997e3ec7a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/nature/cliffGrey_blockQuarter.fbx using Guid(1d533e90eea1240d8a859997e3ec7a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a5a5a418c4c080b171bba3e1719dd10') in 0.022426836 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/assets/city/nature/cliffBrown_steps.fbx
+  artifactKey: Guid(3bc00a6fa65b44ec59f8a92416b0818b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/nature/cliffBrown_steps.fbx using Guid(3bc00a6fa65b44ec59f8a92416b0818b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a6f8868807e79e60ff349a306dbde37') in 0.026721135 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/assets/city/nature/cliffGrey_top.fbx
+  artifactKey: Guid(80ccde068bf824a29b8caee4f090d9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/nature/cliffGrey_top.fbx using Guid(80ccde068bf824a29b8caee4f090d9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '085977da9e4e6ef849fa76ef7501811a') in 0.024442865 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/assets/city/nature/cliffGrey_halfCornerInner.fbx
+  artifactKey: Guid(c4669f040f18b4063a1be4c7471851db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/nature/cliffGrey_halfCornerInner.fbx using Guid(c4669f040f18b4063a1be4c7471851db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12e68ae2ae611ce6694b340376598ffa') in 0.023074153 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/assets/city/nature/cliffBrown_waterfallTop.fbx
+  artifactKey: Guid(d4c1d9add375f4f27ad73b4588aeb482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/nature/cliffBrown_waterfallTop.fbx using Guid(d4c1d9add375f4f27ad73b4588aeb482) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd883c5f80504ade6ed2dde632e08eb4a') in 0.033712545 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.894364 seconds.
+  path: Assets/assets/city/nature/cliffBrown_block.fbx
+  artifactKey: Guid(5fc2caca37cf04a4b891cd102d196e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/nature/cliffBrown_block.fbx using Guid(5fc2caca37cf04a4b891cd102d196e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dae901398e860e85ff815fc31fe72b12') in 0.028742052 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048472 seconds.
+  path: Assets/assets/city/nature/campfireStones_blocks.fbx
+  artifactKey: Guid(f79e08f5520fa4ca6870df883ede465a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/nature/campfireStones_blocks.fbx using Guid(f79e08f5520fa4ca6870df883ede465a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fda2ffd6a2363075c0a48bceb6c1f3bc') in 0.015706626 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/assets/city/nature/canoe_paddle 1.fbx
+  artifactKey: Guid(5e88c3381f05d4f85842817c81f80671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/nature/canoe_paddle 1.fbx using Guid(5e88c3381f05d4f85842817c81f80671) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61caacfbdc1209e8fbd4a36881cfa7ff') in 0.02060742 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025084 seconds.
+  path: Assets/assets/city/nature/bridge_straight.fbx
+  artifactKey: Guid(b642e8a1ea31a4c5699483ac2f439d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/nature/bridge_straight.fbx using Guid(b642e8a1ea31a4c5699483ac2f439d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8cefcad6640e075e4e3dd4d2f9737152') in 0.023928425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/assets/city/nature/campfire_large.fbx
+  artifactKey: Guid(c8a28e5c0fe5749b4851a7dbacff8381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/nature/campfire_large.fbx using Guid(c8a28e5c0fe5749b4851a7dbacff8381) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8af21d1b75ce09c333dc5547e40bc144') in 0.022112803 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034984 seconds.
+  path: Assets/assets/city/nature/bed.fbx
+  artifactKey: Guid(5031883b4be88444da75538571743437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/nature/bed.fbx using Guid(5031883b4be88444da75538571743437) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da2ab81c34ee683b07723d030689b45d') in 0.02853282 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/assets/city/nature/bridge_side_stoneRound.fbx
+  artifactKey: Guid(ea008f46ab59e46458b4f3baa42cedad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/nature/bridge_side_stoneRound.fbx using Guid(ea008f46ab59e46458b4f3baa42cedad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ceb3ba69ccf4281414765a03f3cd6ad') in 0.028004507 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/assets/city/nature/bridge_stone.fbx
+  artifactKey: Guid(fcc9cc217d57c4383b4417206cdca0e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/nature/bridge_stone.fbx using Guid(fcc9cc217d57c4383b4417206cdca0e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'afc747998562d49625702ad0df042b5d') in 0.026108521 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/assets/city/nature/bridge_stoneRound.fbx
+  artifactKey: Guid(81cad0e3d4607422195e68effd32e585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/nature/bridge_stoneRound.fbx using Guid(81cad0e3d4607422195e68effd32e585) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4823a0aebe3a7985f7c1d9b0dc0f8024') in 0.023621753 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.066295 seconds.
+  path: Assets/assets/city/roads/bridge_pillarWide.fbx
+  artifactKey: Guid(cb8b70768e87942118b56c71e6c17de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/roads/bridge_pillarWide.fbx using Guid(cb8b70768e87942118b56c71e6c17de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd35a3d367055e3254a292938030833dd') in 0.032844491 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/assets/city/roads/road_bendSidewalk.fbx
+  artifactKey: Guid(c9261a29ca5274af68538d8ae2ec92c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/roads/road_bendSidewalk.fbx using Guid(c9261a29ca5274af68538d8ae2ec92c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cdbf5b6cef65856539db0f18052b67ea') in 0.051797924 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/assets/city/roads/light_curvedDouble.fbx
+  artifactKey: Guid(86befbf9a9a5f465b948c5a8414850c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/city/roads/light_curvedDouble.fbx using Guid(86befbf9a9a5f465b948c5a8414850c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '51e19c573ae44f4ff22ca5577b2ba5f1') in 0.02972562 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
