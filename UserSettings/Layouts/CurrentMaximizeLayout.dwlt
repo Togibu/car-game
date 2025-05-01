@@ -76,7 +76,7 @@ MonoBehaviour:
   m_UseMipMap: 0
   m_VSyncEnabled: 0
   m_Gizmos: 0
-  m_Stats: 1
+  m_Stats: 0
   m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
   m_ZoomArea:
     m_HRangeLocked: 0
@@ -243,10 +243,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 10272}
-      m_SelectedIDs: 74a2ffffe096ffff848effffb096ffffda97ffff0a9bffff
-      m_LastClickedID: -25846
-      m_ExpandedIDs: 9aa5ffff2afbffff
+      scrollPos: {x: 0, y: 8880}
+      m_SelectedIDs: c8990000
+      m_LastClickedID: 39368
+      m_ExpandedIDs: e6d5ffff26fbffff2afbffffe68b0000288c00003c8c0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -263,7 +263,7 @@ MonoBehaviour:
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_TrimLeadingAndTrailingWhitespace: 0
-        m_ClientGUIView: {fileID: 5}
+        m_ClientGUIView: {fileID: 0}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -822,9 +822,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 240, y: 0.10000001, z: 140}
+    m_Target: {x: 149.9982, y: 5.823162, z: 87.72179}
     speed: 2
-    m_Value: {x: 240, y: 0.10000001, z: 140}
+    m_Value: {x: 149.9982, y: 5.823162, z: 87.72179}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -870,20 +870,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.26868546, y: -0.6201137, z: 0.23896053, w: -0.69726485}
+    m_Target: {x: -0.06572414, y: -0.9212796, z: 0.33923078, w: -0.1785138}
     speed: 2
-    m_Value: {x: -0.26868367, y: -0.62010956, z: 0.23895894, w: -0.6972602}
+    m_Value: {x: -0.06572347, y: -0.9212702, z: 0.3392273, w: -0.17851196}
   m_Size:
-    m_Target: 14.142489
+    m_Target: 29.146471
     speed: 2
-    m_Value: 14.142489
+    m_Value: 29.146471
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 1
-    m_SpeedNormalized: 0.5
+    m_Speed: 1.035845
+    m_SpeedNormalized: 0.5155
     m_SpeedMin: 0.01
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -1056,7 +1056,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/SimplePoly City - Low Poly Assets/Demo
+    - Assets/assets/cars
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1066,16 +1066,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/SimplePoly City - Low Poly Assets/Demo
+  - Assets/assets/cars
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: /Users/leoredeker/workspace/unity/car-game Kopie
+  m_LastProjectPath: /Users/leoredeker/workspace/unity/car-game
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 223}
-    m_SelectedIDs: 56bc0000
-    m_LastClickedID: 48214
-    m_ExpandedIDs: 00000000667e0000cc7e000062bc000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 12}
+    m_SelectedIDs: b0fe0000
+    m_LastClickedID: 65200
+    m_ExpandedIDs: 00000000bca000007aa1000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1104,7 +1104,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000667e0000
+    m_ExpandedIDs: 00000000bca00000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1130,8 +1130,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 74a2ffffe096ffff848effffb096ffffda97ffff0a9bffff
-    m_LastClickedInstanceID: -23948
+    m_SelectedInstanceIDs: c8990000
+    m_LastClickedInstanceID: 39368
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000206b00001c6b0000f46a0000d6650000c4670000d46700008e6b000000000000a47f0000
     m_RenameOverlay:
