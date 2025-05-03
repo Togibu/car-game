@@ -395,6 +395,7 @@
 -analyzer:"/Applications/Unity/Hub/Editor/6000.0.47f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/6000.0.47f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/cam_movement.cs"
+"Assets/driving.cs"
 "Assets/LightCollider.cs"
 "Assets/LightCollidet.cs"
 "Assets/movement.cs"

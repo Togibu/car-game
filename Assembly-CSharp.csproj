@@ -51,6 +51,7 @@
     <Compile Include="Assets/LightCollidet.cs" />
     <Compile Include="Assets/StraßenLampen.cs" />
     <Compile Include="Assets/policelight.cs" />
+    <Compile Include="Assets/driving.cs" />
     <Compile Include="Assets/LightCollider.cs" />
     <Compile Include="Assets/cam_movement.cs" />
     <Compile Include="Assets/sun.cs" />
