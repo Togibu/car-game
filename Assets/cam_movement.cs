@@ -7,7 +7,10 @@ public class cam_movement : MonoBehaviour
     public float zoomSpeed = 10f; // Geschwindigkeit des Zoomens
     public float minZoomDistance = 5f; // Minimaler Abstand zum Ziel
     public float maxZoomDistance = 20f; // Maximaler Abstand zum Ziel
+    public float firstPersonDistance = 1f; // Abstand, ab dem in First-Person-Modus gewechselt wird
     private bool isRotating = false; // Gibt an, ob die Kamera gerade rotiert
+    private bool isFirstPerson = false; // Gibt an, ob wir in der First-Person-Ansicht sind
+    private Renderer[] carRenderers; // Array aller Renderer des Autos
     private float idleTime = 0f; // Zeit seit der letzten Eingabe
     public float autoRotateSpeed = 20f; // Geschwindigkeit der automatischen Rotation
     private const float idleThreshold = 60f; // Zeit in Sekunden, bevor die automatische Rotation startet
@@ -18,6 +21,12 @@ public class cam_movement : MonoBehaviour
 
     void Start()
     {
+        // Alle Renderer des Autos finden (für das Ein-/Ausblenden)
+        if (target != null)
+        {
+            carRenderers = target.GetComponentsInChildren<Renderer>();
+        }
+        
         // Setze die Kamera auf die Standardposition und -rotation beim Start
         ResetCamera();
     }
@@ -70,14 +79,41 @@ public class cam_movement : MonoBehaviour
         Vector3 direction = transform.position - target.position;
         float distance = direction.magnitude;
 
-        // Berechne den neuen Abstand basierend auf dem Scroll-Eingang
-        distance = Mathf.Clamp(distance - scroll * zoomSpeed, minZoomDistance, maxZoomDistance);
+        // Spezielle Behandlung für First-Person-Modus
+        if (isFirstPerson && scroll < 0) // Herauszoomen aus First-Person
+        {
+            // Verlasse First-Person-Modus und setze auf minimale Distanz
+            distance = firstPersonDistance + 0.5f;
+        }
+        else if (!isFirstPerson)
+        {
+            // Normale Zoom-Logik für Third-Person-Modus
+            distance = Mathf.Clamp(distance - scroll * zoomSpeed, minZoomDistance, maxZoomDistance);
+        }
+        // Hineinzoomen in First-Person bleibt wie gehabt
 
-        // Setze die neue Position der Kamera
-        transform.position = target.position + direction.normalized * distance;
+        // Überprüfe, ob wir in First-Person-Modus wechseln sollten
+        bool shouldBeFirstPerson = distance <= firstPersonDistance;
+        
+        if (shouldBeFirstPerson && !isFirstPerson)
+        {
+            // In First-Person-Modus wechseln
+            EnterFirstPerson();
+        }
+        else if (!shouldBeFirstPerson && isFirstPerson)
+        {
+            // First-Person-Modus verlassen
+            ExitFirstPerson();
+        }
 
-        // Kamera immer auf das Ziel ausrichten
-        transform.LookAt(target);
+        if (!isFirstPerson)
+        {
+            // Setze die neue Position der Kamera (nur wenn nicht in First-Person)
+            transform.position = target.position + direction.normalized * distance;
+            
+            // Kamera immer auf das Ziel ausrichten
+            transform.LookAt(target);
+        }
     }
 
     private void ResetCamera()
@@ -85,5 +121,37 @@ public class cam_movement : MonoBehaviour
         // Setze die Kamera auf die gespeicherte Standardposition und -rotation zurück
         transform.position = defaultPosition;
         transform.rotation = defaultRotation;
+    }
+
+    private void EnterFirstPerson()
+    {
+        isFirstPerson = true;
+        
+        // Auto unsichtbar machen
+        if (carRenderers != null)
+        {
+            foreach (Renderer renderer in carRenderers)
+            {
+                renderer.enabled = false;
+            }
+        }
+        
+        // Kamera direkt am Ziel positionieren (First-Person-Position)
+        transform.position = target.position + Vector3.up * 0.5f; // Leicht erhöht für Augenhöhe
+        transform.LookAt(target.position + target.forward * 10f); // Nach vorne schauen
+    }
+
+    private void ExitFirstPerson()
+    {
+        isFirstPerson = false;
+        
+        // Auto wieder sichtbar machen
+        if (carRenderers != null)
+        {
+            foreach (Renderer renderer in carRenderers)
+            {
+                renderer.enabled = true;
+            }
+        }
     }
 }
