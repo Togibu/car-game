@@ -62871,11 +62871,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turnSpeed: 100
-  brakeSpeed: 2
+  brakeSpeed: 3
   rb: {fileID: 1354116875}
   resetPosition: {fileID: 450434156}
   MaxSpeed: 50
   Ground: {fileID: 1156795646}
+  minSpeedForTurning: 1
+  turnAcceleration: 3
+  turnDeceleration: 5
 --- !u!114 &1354116878
 MonoBehaviour:
   m_ObjectHideFlags: 0
