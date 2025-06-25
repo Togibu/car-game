@@ -1006,6 +1006,11 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &23309786 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1328860500621903259, guid: 02fc04ccab4c44d6a948c0fdf72a6904, type: 3}
+  m_PrefabInstance: {fileID: 2135110481}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &27650910
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42743,6 +42748,7 @@ MonoBehaviour:
   zoomSpeed: 10
   minZoomDistance: 2
   maxZoomDistance: 50
+  firstPersonDistance: 3
   autoRotateSpeed: 20
 --- !u!1001 &963300014
 PrefabInstance:
@@ -49500,6 +49506,11 @@ MeshCollider:
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
   m_PrefabInstance: {fileID: 1491442563}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1116610462 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -8569518100099689332, guid: 02fc04ccab4c44d6a948c0fdf72a6904, type: 3}
+  m_PrefabInstance: {fileID: 2135110481}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1118044908
 GameObject:
@@ -62793,6 +62804,7 @@ GameObject:
   - component: {fileID: 1354116876}
   - component: {fileID: 1354116875}
   - component: {fileID: 1354116877}
+  - component: {fileID: 1354116878}
   m_Layer: 0
   m_Name: player
   m_TagString: Player
@@ -62864,6 +62876,22 @@ MonoBehaviour:
   resetPosition: {fileID: 450434156}
   MaxSpeed: 50
   Ground: {fileID: 1156795646}
+--- !u!114 &1354116878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1354116874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 807b0c735698d4a80941fdd8fcf0ee35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leftTire: {fileID: 23309786}
+  rightTire: {fileID: 1116610462}
+  maxTurnAngle: 30
+  turnSpeed: 5
 --- !u!1 &1354789601
 GameObject:
   m_ObjectHideFlags: 0
