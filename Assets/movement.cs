@@ -1,10 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class movement : MonoBehaviour
 {
 
+    public GameObject TextMeshPro;
+    private TextMeshProUGUI textMeshProUGUI;
     public float turnSpeed = 50f; // Drehgeschwindigkeit des Autos
     public float brakeSpeed = 5f; // Bremskraft
     public Rigidbody rb;
@@ -24,6 +27,7 @@ public class movement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        textMeshProUGUI = TextMeshPro.GetComponent<TextMeshProUGUI>();
         turn = false;
         rb = GetComponent<Rigidbody>();
         Cursor.lockState = CursorLockMode.Locked; // Cursor im Spiel sperren
@@ -48,13 +52,13 @@ public class movement : MonoBehaviour
             rb.angularVelocity = Vector3.zero; // Stoppt Rotation
         }
         */
-        Vector3 speeed = new Vector3(rb.linearVelocity.x, 0f, rb.linearVelocity.z);
+        Vector3 speeed = new Vector3(rb.velocity.x, 0f, rb.velocity.z);
         currentSpeed = speeed.magnitude; // Aktuelle Geschwindigkeit berechnen
-        
+        TextOutput(currentSpeed);
         if (currentSpeed > MaxSpeed)
         {
             Vector3 newVelocity = speeed.normalized * MaxSpeed;
-            rb.linearVelocity = new Vector3(newVelocity.x, rb.linearVelocity.y, newVelocity.z);
+            rb.velocity = new Vector3(newVelocity.x, rb.velocity.y, newVelocity.z);
         }
 
         if (Input.GetKeyDown(KeyCode.R))
@@ -63,7 +67,7 @@ public class movement : MonoBehaviour
             transform.position = resetPosition.position;
             transform.rotation = resetPosition.rotation;
            
-            rb.linearVelocity = Vector3.zero;       // Stoppt lineare Bewegung
+            rb.velocity = Vector3.zero;       // Stoppt lineare Bewegung
             rb.angularVelocity = Vector3.zero; // Stoppt Rotation
 
             
@@ -71,17 +75,17 @@ public class movement : MonoBehaviour
         // Vorwärtsbewegung mit einstellbarer Beschleunigung
         if (Input.GetKey(KeyCode.W) && isGrounded)
         {
-            float forwardSpeed = Vector3.Dot(rb.linearVelocity, transform.forward);
+            float forwardSpeed = Vector3.Dot(rb.velocity, transform.forward);
             if (forwardSpeed < MaxSpeed)
             {
-                rb.AddForce(transform.forward * acceleration, ForceMode.Acceleration);
+                rb.AddForce(transform.forward * acceleration*5, ForceMode.Acceleration);
             }
         }
 
         // Rückwärtsbewegung mit einstellbarer Beschleunigung (auch aus dem Stand)
         if (Input.GetKey(KeyCode.S) && isGrounded)
         {
-            float forwardSpeed = Vector3.Dot(rb.linearVelocity, transform.forward);
+            float forwardSpeed = Vector3.Dot(rb.velocity, transform.forward);
             if (forwardSpeed > -MaxSpeed)
             {
                 rb.AddForce(-transform.forward * acceleration, ForceMode.Acceleration);
@@ -120,7 +124,7 @@ public class movement : MonoBehaviour
             float turnAmount = currentTurnInput * turnSpeed * speedFactor * Time.deltaTime;
             
             // Bei Rückwärtsfahrt umgekehrte Lenkung (wie bei echten Autos)
-            if (Vector3.Dot(rb.linearVelocity, transform.forward) < 0) // Rückwärts
+            if (Vector3.Dot(rb.velocity, transform.forward) < 0) // Rückwärts
             {
                 turnAmount = -turnAmount;
             }
@@ -131,14 +135,18 @@ public class movement : MonoBehaviour
         // Bremsen, wenn keine Bewegungstasten gedrückt werden
         if (!Input.GetKey(KeyCode.W) && !Input.GetKey(KeyCode.S))
         {
-            rb.linearVelocity = Vector3.Lerp(rb.linearVelocity, Vector3.zero, brakeSpeed * Time.deltaTime);
+            rb.velocity = Vector3.Lerp(rb.velocity, Vector3.zero, brakeSpeed * Time.deltaTime);
         }
     }
 
+    void TextOutput(float speed)
+    {
+        textMeshProUGUI.text = "Speed: " + (speed * 2f).ToString("F1") + " Km/h";
+    }
 
     bool moving()
     {
-        Vector3 horizontalVelocity = new Vector3(rb.linearVelocity.x, 0f, rb.linearVelocity.z);
+        Vector3 horizontalVelocity = new Vector3(rb.velocity.x, 0f, rb.velocity.z);
         return horizontalVelocity.magnitude > 0.4f;
     }
     void OnCollisionExit(Collision other)
