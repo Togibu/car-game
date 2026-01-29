@@ -8,21 +8,32 @@ public class movement : MonoBehaviour
 
     public GameObject TextMeshPro;
     private TextMeshProUGUI textMeshProUGUI;
-    public float turnSpeed = 50f; // Drehgeschwindigkeit des Autos
-    public float brakeSpeed = 5f; // Bremskraft
+    public float turnSpeed = 55f; // Drehgeschwindigkeit des Autos
+    public float brakeSpeed = 8f; // Bremskraft (als Zusatzwiderstand)
     public Rigidbody rb;
     private bool turn;
     public Transform resetPosition; // Position, zu der das Auto zurückgesetzt werden soll
-    public float MaxSpeed = 10f;
+    public float MaxSpeed = 14f;
+    public float MaxReverseSpeed = 6f;
     bool isGrounded = false; // Flag, um zu überprüfen, ob das Auto den Boden berührt
     public GameObject Ground;
     private float currentSpeed = 0f; // Aktuelle Geschwindigkeit für realistische Lenkung
-    public float minSpeedForTurning = 1f; // Minimale Geschwindigkeit, um lenken zu können
+    public float minSpeedForTurning = 2f; // Minimale Geschwindigkeit, um lenken zu können
     private float currentTurnInput = 0f; // Aktuelle Lenkeingabe für sanfte Übergänge
-    public float turnAcceleration = 3f; // Wie schnell die Lenkung beschleunigt
-    public float turnDeceleration = 5f; // Wie schnell die Lenkung abbremst
+    public float turnAcceleration = 4f; // Wie schnell die Lenkung beschleunigt
+    public float turnDeceleration = 6f; // Wie schnell die Lenkung abbremst
     public float drag = 2f; // widerstand
-    public float acceleration = 10f; // Beschleunigung des Autos (public, einstellbar)
+    public float acceleration = 12f; // Beschleunigung des Autos (public, einstellbar)
+    public float sidewaysFriction = 8f; // Dämpft seitliches Rutschen
+    public float groundedDrag = 2.5f;
+    public float airDrag = 0.2f;
+    public float angularDrag = 2.5f;
+    public LayerMask groundMask = ~0;
+    public float groundCheckDistance = 0.35f;
+    public Vector3 centerOfMassOffset = new Vector3(0f, -0.35f, 0f);
+    public float maxAngularVelocity = 4f;
+
+    private float throttleInput = 0f;
 
     // Start is called before the first frame update
     void Start()
@@ -33,6 +44,9 @@ public class movement : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked; // Cursor im Spiel sperren
         Cursor.visible = false; // Cursor unsichtbar machen
         rb.drag = drag; // Setzt den widerstand des Autos
+        rb.angularDrag = angularDrag;
+        rb.centerOfMass += centerOfMassOffset;
+        rb.maxAngularVelocity = maxAngularVelocity;
     }
 
     // Update is called once per frame
@@ -55,11 +69,10 @@ public class movement : MonoBehaviour
         Vector3 speeed = new Vector3(rb.velocity.x, 0f, rb.velocity.z);
         currentSpeed = speeed.magnitude; // Aktuelle Geschwindigkeit berechnen
         TextOutput(currentSpeed);
-        if (currentSpeed > MaxSpeed)
-        {
-            Vector3 newVelocity = speeed.normalized * MaxSpeed;
-            rb.velocity = new Vector3(newVelocity.x, rb.velocity.y, newVelocity.z);
-        }
+
+        // Eingaben lesen (Update) und in FixedUpdate anwenden
+        throttleInput = Mathf.Clamp(Input.GetAxisRaw("Vertical"), -1f, 1f);
+        float targetTurnInput = Mathf.Clamp(Input.GetAxisRaw("Horizontal"), -1f, 1f);
 
         if (Input.GetKeyDown(KeyCode.R))
         {
@@ -72,76 +85,69 @@ public class movement : MonoBehaviour
 
             
         }
-        // Vorwärtsbewegung mit einstellbarer Beschleunigung
-        if (Input.GetKey(KeyCode.W) && isGrounded)
-        {
-            float forwardSpeed = Vector3.Dot(rb.velocity, transform.forward);
-            if (forwardSpeed < MaxSpeed)
-            {
-                rb.AddForce(transform.forward * acceleration*5, ForceMode.Acceleration);
-            }
-        }
-
-        // Rückwärtsbewegung mit einstellbarer Beschleunigung (auch aus dem Stand)
-        if (Input.GetKey(KeyCode.S) && isGrounded)
-        {
-            float forwardSpeed = Vector3.Dot(rb.velocity, transform.forward);
-            if (forwardSpeed > -MaxSpeed)
-            {
-                rb.AddForce(-transform.forward * acceleration, ForceMode.Acceleration);
-            }
-        }
-
-        // Realistische Lenkung: Nur wenn das Auto sich bewegt
-        float speedFactor = Mathf.Clamp01(currentSpeed / minSpeedForTurning); // Lenkfaktor basierend auf Geschwindigkeit
-        
-        // Lenkeingabe erfassen
-        float targetTurnInput = 0f;
-        if (Input.GetKey(KeyCode.A))
-        {
-            targetTurnInput = -1f; // Links
-        }
-        else if (Input.GetKey(KeyCode.D))
-        {
-            targetTurnInput = 1f; // Rechts
-        }
-        
         // Sanfte Beschleunigung/Verlangsamung der Lenkung
-        if (targetTurnInput != 0f)
+        if (Mathf.Abs(targetTurnInput) > 0.01f)
         {
-            // Beschleunigung zur Ziel-Lenkeingabe
             currentTurnInput = Mathf.MoveTowards(currentTurnInput, targetTurnInput, turnAcceleration * Time.deltaTime);
         }
         else
         {
-            // Verlangsamung zu 0, wenn keine Taste gedrückt wird
             currentTurnInput = Mathf.MoveTowards(currentTurnInput, 0f, turnDeceleration * Time.deltaTime);
         }
-        
-        // Lenkung anwenden, nur wenn Auto sich bewegt und wir eine Lenkeingabe haben
-        if (speedFactor > 0.1f && Mathf.Abs(currentTurnInput) > 0.01f && isGrounded)
+    }
+
+    void FixedUpdate()
+    {
+        isGrounded = Physics.Raycast(transform.position + Vector3.up * 0.1f, Vector3.down, groundCheckDistance, groundMask);
+        rb.drag = isGrounded ? groundedDrag : airDrag;
+
+        Vector3 horizontalVelocity = new Vector3(rb.velocity.x, 0f, rb.velocity.z);
+        currentSpeed = horizontalVelocity.magnitude;
+        float forwardSpeed = Vector3.Dot(rb.velocity, transform.forward);
+
+        // Vorwärts/Rückwärts-Antrieb
+        if (isGrounded)
         {
-            float turnAmount = currentTurnInput * turnSpeed * speedFactor * Time.deltaTime;
-            
-            // Bei Rückwärtsfahrt umgekehrte Lenkung (wie bei echten Autos)
-            if (Vector3.Dot(rb.velocity, transform.forward) < 0) // Rückwärts
+            if (throttleInput > 0f && forwardSpeed < MaxSpeed)
+            {
+                rb.AddForce(transform.forward * acceleration * throttleInput, ForceMode.Acceleration);
+            }
+            else if (throttleInput < 0f && forwardSpeed > -MaxReverseSpeed)
+            {
+                rb.AddForce(transform.forward * acceleration * throttleInput, ForceMode.Acceleration);
+            }
+        }
+
+        // Zusätzliche Bremswirkung, wenn kein Gas gegeben wird
+        if (isGrounded && Mathf.Abs(throttleInput) < 0.01f && horizontalVelocity.sqrMagnitude > 0.1f)
+        {
+            rb.AddForce(-horizontalVelocity.normalized * brakeSpeed, ForceMode.Acceleration);
+        }
+
+        // Seitliches Rutschen dämpfen
+        if (isGrounded && horizontalVelocity.sqrMagnitude > 0.01f)
+        {
+            Vector3 lateralVelocity = Vector3.Dot(rb.velocity, transform.right) * transform.right;
+            rb.AddForce(-lateralVelocity * sidewaysFriction, ForceMode.Acceleration);
+        }
+
+        // Lenkung anwenden, nur wenn Auto sich bewegt
+        float speedFactor = Mathf.Clamp01(currentSpeed / minSpeedForTurning);
+        if (speedFactor > 0.05f && Mathf.Abs(currentTurnInput) > 0.01f && isGrounded)
+        {
+            float turnAmount = currentTurnInput * turnSpeed * speedFactor * Time.fixedDeltaTime;
+            if (forwardSpeed < 0f)
             {
                 turnAmount = -turnAmount;
             }
-            
-            transform.Rotate(Vector3.up, turnAmount);
-        }
-
-        // Bremsen, wenn keine Bewegungstasten gedrückt werden
-        if (!Input.GetKey(KeyCode.W) && !Input.GetKey(KeyCode.S))
-        {
-            rb.velocity = Vector3.Lerp(rb.velocity, Vector3.zero, brakeSpeed * Time.deltaTime);
+            Quaternion deltaRotation = Quaternion.Euler(0f, turnAmount, 0f);
+            rb.MoveRotation(rb.rotation * deltaRotation);
         }
     }
 
     void TextOutput(float speed)
     {
-        textMeshProUGUI.text = "Speed: " + (speed * 2f).ToString("F1") + " Km/h";
+        textMeshProUGUI.text = "Speed: " + (speed * 3.6f).ToString("F1") + " Km/h";
     }
 
     bool moving()
@@ -149,16 +155,7 @@ public class movement : MonoBehaviour
         Vector3 horizontalVelocity = new Vector3(rb.velocity.x, 0f, rb.velocity.z);
         return horizontalVelocity.magnitude > 0.4f;
     }
-    void OnCollisionExit(Collision other)
-    {
-        isGrounded = false; // Auto verlässt den Boden
-    }
-    void OnCollisionStay(Collision other)
-    {
-        isGrounded = true; // Auto bleibt auf dem Boden
-    }
-    void OnCollisionEnter(Collision other)
-    {
-        isGrounded = true; // Auto berührt den Boden
-    }
+    void OnCollisionExit(Collision other) { }
+    void OnCollisionStay(Collision other) { }
+    void OnCollisionEnter(Collision other) { }
 }
