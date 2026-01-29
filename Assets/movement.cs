@@ -18,6 +18,7 @@ public class movement : MonoBehaviour
     private float currentTurnInput = 0f; // Aktuelle Lenkeingabe für sanfte Übergänge
     public float turnAcceleration = 3f; // Wie schnell die Lenkung beschleunigt
     public float turnDeceleration = 5f; // Wie schnell die Lenkung abbremst
+    public float drag = 2f; // widerstand
 
     // Start is called before the first frame update
     void Start()
@@ -26,6 +27,7 @@ public class movement : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         Cursor.lockState = CursorLockMode.Locked; // Cursor im Spiel sperren
         Cursor.visible = false; // Cursor unsichtbar machen
+        rb.drag = drag; // Setzt den widerstand des Autos
     }
 
     // Update is called once per frame
@@ -72,7 +74,7 @@ public class movement : MonoBehaviour
         }
 
         // Rückwärtsbewegung
-        if (Input.GetKey(KeyCode.S) && isGrounded)
+        if (Input.GetKey(KeyCode.S) && isGrounded && moving())
         {
             rb.AddForce(-transform.forward * MaxSpeed);
         }
@@ -124,6 +126,12 @@ public class movement : MonoBehaviour
         }
     }
 
+
+    bool moving()
+    {
+        Vector3 horizontalVelocity = new Vector3(rb.linearVelocity.x, 0f, rb.linearVelocity.z);
+        return horizontalVelocity.magnitude > 0.4f;
+    }
     void OnCollisionExit(Collision other)
     {
         isGrounded = false; // Auto verlässt den Boden
