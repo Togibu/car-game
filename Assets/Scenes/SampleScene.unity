@@ -63381,12 +63381,13 @@ MonoBehaviour:
   brakeSpeed: 5
   rb: {fileID: 0}
   resetPosition: {fileID: 0}
-  MaxSpeed: 10
+  MaxSpeed: 20
   Ground: {fileID: 0}
   minSpeedForTurning: 1
   turnAcceleration: 3
   turnDeceleration: 5
   drag: 0.5
+  acceleration: 10
 --- !u!114 &1354116878
 MonoBehaviour:
   m_ObjectHideFlags: 0

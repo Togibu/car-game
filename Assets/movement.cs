@@ -19,6 +19,7 @@ public class movement : MonoBehaviour
     public float turnAcceleration = 3f; // Wie schnell die Lenkung beschleunigt
     public float turnDeceleration = 5f; // Wie schnell die Lenkung abbremst
     public float drag = 2f; // widerstand
+    public float acceleration = 10f; // Beschleunigung des Autos (public, einstellbar)
 
     // Start is called before the first frame update
     void Start()
@@ -67,16 +68,24 @@ public class movement : MonoBehaviour
 
             
         }
-        // Vorwärtsbewegung
+        // Vorwärtsbewegung mit einstellbarer Beschleunigung
         if (Input.GetKey(KeyCode.W) && isGrounded)
         {
-            rb.AddForce(transform.forward * MaxSpeed);
+            float forwardSpeed = Vector3.Dot(rb.linearVelocity, transform.forward);
+            if (forwardSpeed < MaxSpeed)
+            {
+                rb.AddForce(transform.forward * acceleration, ForceMode.Acceleration);
+            }
         }
 
-        // Rückwärtsbewegung
-        if (Input.GetKey(KeyCode.S) && isGrounded && moving())
+        // Rückwärtsbewegung mit einstellbarer Beschleunigung (auch aus dem Stand)
+        if (Input.GetKey(KeyCode.S) && isGrounded)
         {
-            rb.AddForce(-transform.forward * MaxSpeed);
+            float forwardSpeed = Vector3.Dot(rb.linearVelocity, transform.forward);
+            if (forwardSpeed > -MaxSpeed)
+            {
+                rb.AddForce(-transform.forward * acceleration, ForceMode.Acceleration);
+            }
         }
 
         // Realistische Lenkung: Nur wenn das Auto sich bewegt
